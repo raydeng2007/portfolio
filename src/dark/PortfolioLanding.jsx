@@ -7,12 +7,11 @@ import Header from "../component/header/Header";
 import FooterTwo from "../component/footer/Footer";
 import TabTwo from "../elements/tab/TabTwo";
 import ContactThree from "../elements/contact/ContactThree";
-import PortfolioList from "../elements/portfolio/PortfolioList";
-import ServiceList from "../elements/service/ServiceList";
 import Particles from "react-particles-js";
-import avatar from "../assets/images/about/avatar.jpg";
-import myPDF from "../assets/Othman_CV.pdf";
-import DisplayCards from "../component/DisplayCards";
+import profile from "../assets/images/about/profile.jpeg";
+import myPDF from "../assets/resume.pdf";
+import DisplayCards from "../component/cards/DisplayCards";
+import WorkCards from "../component/cards/WorkCards";
 
 const SlideList = [
   {
@@ -30,8 +29,7 @@ const PortfolioLanding = () => {
       "Since beginning my journey nearly 5 years ago, I've done remote work for agencies and collaborated with talented people to create digital content for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one problem at a time.";
   return (
     <div className="active-dark">
-      <Helmet pageTitle="Raymond Deng Portfolio" />
-
+      <Helmet pageTitle="Raymond's Site" />
       <Header homeLink="/" logo="symbol-dark" color="color-black" />
 
       {/* Start Slider Area   */}
@@ -54,17 +52,17 @@ const PortfolioLanding = () => {
                 params={{
                   particles: {
                     number: {
-                      value: 500,
+                      value: 600,
                       density: {
                         enable: false,
                       },
                     },
                     size: {
-                      value: 3,
+                      value: 5,
                       random: true,
                       anim: {
-                        speed: 4,
-                        size_min: 0.6,
+                        speed: 5,
+                        size_min: 1,
                       },
                     },
                     line_linked: {
@@ -72,7 +70,7 @@ const PortfolioLanding = () => {
                     },
                     move: {
                       random: true,
-                      speed: 0.5,
+                      speed: 2,
 
                     },
                   },
@@ -102,11 +100,13 @@ const PortfolioLanding = () => {
                 <div className="row">
                   <div className="col-lg-12">
                     <div className={`inner ${value.textPosition}`}>
-                      {value.category ? <span>{value.category}</span> : ""}
+                      <h4>
+                        {value.category ? <span>{value.category}</span> : ""}
+                      </h4>
                       <h1 className="title">
                         I like<br />
                         <TextLoop interval={1800}>
-                          <span> Developing Software</span>
+                          <span> Software</span>
                           <span> Machine Learning</span>
                           <span> Blogging</span>
                           <span> Basketball</span>
@@ -127,7 +127,7 @@ const PortfolioLanding = () => {
                             color: "white",
                           }}
                           href={myPDF}
-                          download="Othman_CV.pdf"
+                          download="resume.pdf"
                         >
                           Download CV
                         </a>
@@ -168,14 +168,15 @@ const PortfolioLanding = () => {
                 <div className="col-lg-12">
                   <div className="about-inner inner">
                     <div className="section-title">
-                      <h2 className="title">{title}</h2>
+                      <div className="row row--35 align-items-center"><h2 className="title">{title}</h2>
+                        <h5> <br /> &nbsp; (on the right)</h5></div>
                       <div>
                         <div className="row row--35 align-items-center">
                           <div className="col-md-3">
                             <div className="thumbnail">
                               <img
                                 className="w-100"
-                                src={avatar}
+                                src={profile}
                                 alt="About Images"
                               />
                             </div>
@@ -207,16 +208,13 @@ const PortfolioLanding = () => {
             <div className="row">
               <div className="col-lg-12">
                 <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
-                  <h2 className="title">Services</h2>
+                  <h2 className="title">Work Experience</h2>
                 </div>
               </div>
             </div>
             <div className="row creative-service">
               <div className="col-lg-12">
-                <ServiceList
-                  item="3"
-                  column="col-lg-4 col-md-6 col-sm-6 col-12 text-left"
-                />
+                <WorkCards />
               </div>
             </div>
           </div>
@@ -232,7 +230,7 @@ const PortfolioLanding = () => {
               <div className="row">
                 <div className="col-lg-12">
                   <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
-                    <h2 className="title">Personal Projects</h2>
+                    <h2 className="title">Projects</h2>
                   </div>
                 </div>
               </div>
@@ -252,8 +250,7 @@ const PortfolioLanding = () => {
       <div id="contact" className="fix">
         <div className="rn-contact-area ptb--120 bg_color--5">
           <ContactThree
-            contactImages="/assets/images/about/about-9.jpg"
-            contactTitle="Hire Me."
+            contactTitle="Get in touch"
           />
         </div>
       </div>

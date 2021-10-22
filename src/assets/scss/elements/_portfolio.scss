@@ -58,13 +58,13 @@
         background-position: center;
         border-radius: 5px;
         background-color: #0a0a0a;
-        background-image: url(/assets/images/portfolio/portfolio-1.jpg);
+        
         transform: scale(1.13) translateZ(0);
         backface-visibility: hidden;
         transition: transform .28s ease;
         z-index: 4;
         &.image-1{
-            background-image: url(/assets/images/portfolio/portfolio-1.jpg);
+            
         }
 
         &.image-2{
@@ -104,23 +104,23 @@
         background-size: cover;
         background-position: center;
         background-color: #0a0a0a;
-        background-image: url(/assets/images/portfolio/portfolio-1.jpg);
+        
         @extend %transition;
         transform: translateY(38px);
         opacity: 0;
         z-index: 1;
 
         &.image-1{
-            background-image: url(/assets/images/portfolio/portfolio-1.jpg);
+            
         }
         &.image-2{
             background-image: url(/assets/images/portfolio/portfolio-2.jpg);
         }
         &.image-3{
-            background-image: url(/assets/images/portfolio/portfolio-1.jpg);
+            
         }
         &.image-4 {
-            background-image: url(/assets/images/portfolio/portfolio-1.jpg);
+            
         }
     }
 
@@ -176,61 +176,7 @@
         }
     }
 
-    &.portfolio-interior-design {
-        .thumbnail {
-            &.image-1{
-                background-image: url(/assets/images/portfolio/interior/portfolio-1.jpg);
-            }
-    
-            &.image-2{
-                background-image: url(/assets/images/portfolio/interior/portfolio-2.jpg);
-            }
-    
-            &.image-3{
-                background-image: url(/assets/images/portfolio/interior/portfolio-3.jpg);
-            }
-    
-            &.image-4 {
-                background-image: url(/assets/images/portfolio/interior/portfolio-4.jpg);
-            }
-            &.image-5 {
-                background-image: url(/assets/images/portfolio/interior/portfolio-5.jpg);
-            }
-            &.image-6 {
-                background-image: url(/assets/images/portfolio/interior/portfolio-6.jpg);
-            }
-            &.image-7 {
-                background-image: url(/assets/images/portfolio/interior/portfolio-7.jpg);
-            }
-        }
-        .bg-blr-image{
-            background-image: url(/assets/images/portfolio/interior/portfolio-1.jpg);
-            &.image-1{
-                background-image: url(/assets/images/portfolio/interior/portfolio-1.jpg);
-            }
-    
-            &.image-2{
-                background-image: url(/assets/images/portfolio/interior/portfolio-2.jpg);
-            }
-    
-            &.image-3{
-                background-image: url(/assets/images/portfolio/interior/portfolio-3.jpg);
-            }
-    
-            &.image-4 {
-                background-image: url(/assets/images/portfolio/interior/portfolio-4.jpg);
-            }
-            &.image-5 {
-                background-image: url(/assets/images/portfolio/interior/portfolio-5.jpg);
-            }
-            &.image-6 {
-                background-image: url(/assets/images/portfolio/interior/portfolio-6.jpg);
-            }
-            &.image-7 {
-                background-image: url(/assets/images/portfolio/interior/portfolio-7.jpg);
-            }
-        }
-    }
+
 
     &.text-center {
         .content {
@@ -681,9 +627,7 @@
                 background: -webkit-linear-gradient(left,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);
                 background: linear-gradient(to right,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);
                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=1 );
-                &::before{
-                    content: url(/assets/images/icons/slick-arrow-left.png);
-                }
+                
                 @media #{$md-layout} {
                     display: none !important;
                 }
@@ -701,9 +645,7 @@
                 background: -webkit-linear-gradient(right,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);
                 background: linear-gradient(to left,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);
                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=1 );
-                &::before{
-                    content: url(/assets/images/icons/slick-arrow-right.png);
-                }
+                
                 @media #{$md-layout} {
                     display: none !important;
                 }

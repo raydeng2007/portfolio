@@ -1,19 +1,13 @@
 import React from "react";
 import {
-  FaTwitter,
-  FaInstagram,
-  FaFacebookF,
   FaLinkedinIn,
   FaGithub
 } from "react-icons/fa";
 import logo from '../../assets/images/logo/logo.svg'
 
 const SocialShare = [
-  { Social: <FaFacebookF />, link: "https://www.facebook.com/iothmanosx" },
-  { Social: <FaLinkedinIn />, link: "https://www.linkedin.com/in/othmanosx" },
-  { Social: <FaInstagram />, link: "https://www.instagram.com/othmanosx" },
-  { Social: <FaTwitter />, link: "https://twitter.com/othmanosx" },
-  { Social: <FaGithub />, link: "https://github.com/othmanosx" }
+  { Social: <FaLinkedinIn />, link: "https://www.linkedin.com/in/raymond-deng-1196a1126/" },
+  { Social: <FaGithub />, link: "https://github.com/raydeng2007" }
 ];
 
 const FooterTwo = () => {
@@ -51,7 +45,7 @@ const FooterTwo = () => {
           <div className="col-lg-4 col-md-12 col-sm-12 col-12">
             <div className="inner text-lg-right text-center mt_md--20 mt_sm--20">
               <div className="text">
-                <p>Copyright © 2021 Othman. All Rights Reserved.</p>
+                <p>Made with <span>&#9829;</span> by Raymond | Copyright &copy; 2021 </p>
               </div>
             </div>
           </div>

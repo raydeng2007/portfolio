@@ -748,9 +748,7 @@ Slider Default Button And Dot STyle
                     left: 10px;
                 }
 
-                &::before{
-                    content: url(/assets/images/icons/slick-arrow-left-small.png);
-                }
+                
                 &:hover{
                     left: 30px;
                     @media #{$sm-layout} {
@@ -767,9 +765,7 @@ Slider Default Button And Dot STyle
                 @media #{$sm-layout} {
                     right: 10px;
                 }
-                &::before{
-                    content: url(/assets/images/icons/slick-arrow-right-small.png);
-                }
+                
                 &:hover {
                     right: 30px;
                     @media #{$sm-layout} {

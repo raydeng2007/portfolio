@@ -8,8 +8,8 @@ import Scrollspy from "react-scrollspy";
 import logo from '../../assets/images/logo/logo.svg'
 
 const SocialShare = [
-  { Social: <FaLinkedinIn />, link: "https://www.linkedin.com/in/othmanosx" },
-  { Social: <FaGithub />, link: "https://github.com/othmanosx" }
+  { Social: <FaLinkedinIn />, link: "https://www.linkedin.com/in/raymond-deng-1196a1126/" },
+  { Social: <FaGithub />, link: "https://github.com/raydeng2007" }
 ];
 class Header extends Component {
   constructor(props) {
@@ -30,7 +30,7 @@ class Header extends Component {
     document.querySelector(".header-wrapper").classList.remove("menu-open");
   }
 
-  stickyHeader() {}
+  stickyHeader() { }
 
   render() {
     window.addEventListener("scroll", function () {
@@ -77,7 +77,6 @@ class Header extends Component {
                   "about",
                   "service",
                   "portfolio",
-                  "blog",
                   "contact"
                 ]}
                 currentClassName="is-current"
@@ -90,14 +89,11 @@ class Header extends Component {
                   <a href="#about">About</a>
                 </li>
                 <li>
-                  <a href="#service">Service</a>
+                  <a href="#service">Experience</a>
                 </li>
                 <li>
-                  <a href="#portfolio">Portfolio</a>
+                  <a href="#portfolio">Projects</a>
                 </li>
-                {/* <li>
-                  <a href="#blog">Blog</a>
-                </li> */}
                 <li>
                   <a href="#contact">Contact</a>
                 </li>
@@ -114,11 +110,6 @@ class Header extends Component {
                 ))}
               </ul>
             </div>
-            {/* <div className="header-btn">
-              <a className="rn-btn" href="#contact">
-                <span>Contact me</span>
-              </a>
-            </div> */}
             {/* Start Humberger Menu  */}
             <div className="humberger-menu d-block d-lg-none pl--20">
               <span

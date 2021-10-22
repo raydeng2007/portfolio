@@ -11419,33 +11419,12 @@ Footer Styles
   background-position: center;
   border-radius: 5px;
   background-color: #0a0a0a;
-  background-image: url(./assets/images/portfolio/portfolio-1.jpg);
   transform: scale(1.13) translateZ(0);
   backface-visibility: hidden;
   transition: transform 0.28s ease;
   z-index: 4;
 }
-.portfolio .thumbnail.image-1 {
-  background-image: url(./assets/images/portfolio/portfolio-1.jpg);
-}
-.portfolio .thumbnail.image-2 {
-  background-image: url(./assets/images/portfolio/portfolio-2.jpg);
-}
-.portfolio .thumbnail.image-3 {
-  background-image: url(./assets/images/portfolio/portfolio-3.jpg);
-}
-.portfolio .thumbnail.image-4 {
-  background-image: url(./assets/images/portfolio/portfolio-4.jpg);
-}
-.portfolio .thumbnail.image-5 {
-  background-image: url(./assets/images/portfolio/portfolio-5.jpg);
-}
-.portfolio .thumbnail.image-6 {
-  background-image: url(./assets/images/portfolio/portfolio-6.jpg);
-}
-.portfolio .thumbnail.image-7 {
-  background-image: url(./assets/images/portfolio/portfolio-7.jpg);
-}
+
 .portfolio .thumbnail::after {
   background-color: rgba(45, 45, 45, 0.35);
   position: absolute;
@@ -11472,23 +11451,11 @@ Footer Styles
   background-size: cover;
   background-position: center;
   background-color: #0a0a0a;
-  background-image: url(./assets/images/portfolio/portfolio-1.jpg);
   transform: translateY(38px);
   opacity: 0;
   z-index: 1;
 }
-.portfolio .bg-blr-image.image-1 {
-  background-image: url(./assets/images/portfolio/portfolio-1.jpg);
-}
-.portfolio .bg-blr-image.image-2 {
-  background-image: url(./assets/images/portfolio/portfolio-2.jpg);
-}
-.portfolio .bg-blr-image.image-3 {
-  background-image: url(./assets/images/portfolio/portfolio-1.jpg);
-}
-.portfolio .bg-blr-image.image-4 {
-  background-image: url(./assets/images/portfolio/portfolio-5.jpg);
-}
+
 .portfolio .content {
   position: absolute;
   bottom: 40px;
@@ -11543,51 +11510,7 @@ Footer Styles
 .portfolio .content .inner .portfolio-button a.rn-btn:hover {
   border-color: #FED8B1;
 }
-.portfolio.portfolio-interior-design .thumbnail.image-1 {
-  background-image: url(./assets/images/portfolio/interior/portfolio-1.jpg);
-}
-.portfolio.portfolio-interior-design .thumbnail.image-2 {
-  background-image: url(./assets/images/portfolio/interior/portfolio-2.jpg);
-}
-.portfolio.portfolio-interior-design .thumbnail.image-3 {
-  background-image: url(./assets/images/portfolio/interior/portfolio-3.jpg);
-}
-.portfolio.portfolio-interior-design .thumbnail.image-4 {
-  background-image: url(./assets/images/portfolio/interior/portfolio-4.jpg);
-}
-.portfolio.portfolio-interior-design .thumbnail.image-5 {
-  background-image: url(./assets/images/portfolio/interior/portfolio-5.jpg);
-}
-.portfolio.portfolio-interior-design .thumbnail.image-6 {
-  background-image: url(./assets/images/portfolio/interior/portfolio-6.jpg);
-}
-.portfolio.portfolio-interior-design .thumbnail.image-7 {
-  background-image: url(./assets/images/portfolio/interior/portfolio-7.jpg);
-}
-.portfolio.portfolio-interior-design .bg-blr-image {
-  background-image: url(./assets/images/portfolio/interior/portfolio-1.jpg);
-}
-.portfolio.portfolio-interior-design .bg-blr-image.image-1 {
-  background-image: url(./assets/images/portfolio/interior/portfolio-1.jpg);
-}
-.portfolio.portfolio-interior-design .bg-blr-image.image-2 {
-  background-image: url(./assets/images/portfolio/interior/portfolio-2.jpg);
-}
-.portfolio.portfolio-interior-design .bg-blr-image.image-3 {
-  background-image: url(./assets/images/portfolio/interior/portfolio-3.jpg);
-}
-.portfolio.portfolio-interior-design .bg-blr-image.image-4 {
-  background-image: url(./assets/images/portfolio/interior/portfolio-4.jpg);
-}
-.portfolio.portfolio-interior-design .bg-blr-image.image-5 {
-  background-image: url(./assets/images/portfolio/interior/portfolio-5.jpg);
-}
-.portfolio.portfolio-interior-design .bg-blr-image.image-6 {
-  background-image: url(./assets/images/portfolio/interior/portfolio-6.jpg);
-}
-.portfolio.portfolio-interior-design .bg-blr-image.image-7 {
-  background-image: url(./assets/images/portfolio/interior/portfolio-7.jpg);
-}
+
 .portfolio.text-center .content {
   position: absolute;
   bottom: 20px;
@@ -11664,7 +11587,7 @@ Footer Styles
   background-position: center;
   border-radius: 5px;
   background-color: #0a0a0a;
-  background-image: url(./assets/images/portfolio/portfolio-static-01.jpg);
+
   transform: scale(1.13) translateZ(0);
   backface-visibility: hidden;
   transition: transform 0.28s ease;
@@ -11675,36 +11598,7 @@ Footer Styles
     transform: scale(1) translateZ(0);
   }
 }
-.portfolio-tilthover .portfolio .thumbnail.image-1 {
-  background-image: url(./assets/images/portfolio/portfolio-static-01.jpg);
-}
-.portfolio-tilthover .portfolio .thumbnail.image-2 {
-  background-image: url(./assets/images/portfolio/portfolio-static-02.jpg);
-}
-.portfolio-tilthover .portfolio .thumbnail.image-3 {
-  background-image: url(./assets/images/portfolio/portfolio-static-03.jpg);
-}
-.portfolio-tilthover .portfolio .thumbnail.image-4 {
-  background-image: url(./assets/images/portfolio/portfolio-static-04.jpg);
-}
-.portfolio-tilthover .portfolio .thumbnail.image-5 {
-  background-image: url(./assets/images/portfolio/portfolio-static-05.jpg);
-}
-.portfolio-tilthover .portfolio .thumbnail.image-6 {
-  background-image: url(./assets/images/portfolio/portfolio-static-06.jpg);
-}
-.portfolio-tilthover .portfolio .thumbnail.image-7 {
-  background-image: url(./assets/images/portfolio/portfolio-static-07.jpg);
-}
-.portfolio-tilthover .portfolio .thumbnail.image-8 {
-  background-image: url(./assets/images/portfolio/portfolio-static-08.jpg);
-}
-.portfolio-tilthover .portfolio .thumbnail.image-9 {
-  background-image: url(./assets/images/portfolio/portfolio-static-09.jpg);
-}
-.portfolio-tilthover .portfolio .thumbnail.image-10 {
-  background-image: url(./assets/images/portfolio/portfolio-static-10.jpg);
-}
+
 .portfolio-tilthover .portfolio .thumbnail::after {
   display: none;
 }
@@ -11725,7 +11619,6 @@ Footer Styles
   background-size: cover;
   background-position: center;
   background-color: #0a0a0a;
-  background-image: url(./assets/images/portfolio/portfolio-static-01.jpg);
   transform: translateY(38px);
   opacity: 0;
   z-index: 1;
@@ -11736,36 +11629,7 @@ Footer Styles
     z-index: 9;
   }
 }
-.portfolio-tilthover .portfolio .bg-blr-image.image-1 {
-  background-image: url(./assets/images/portfolio/portfolio-static-01.jpg);
-}
-.portfolio-tilthover .portfolio .bg-blr-image.image-2 {
-  background-image: url(./assets/images/portfolio/portfolio-static-03.jpg);
-}
-.portfolio-tilthover .portfolio .bg-blr-image.image-3 {
-  background-image: url(./assets/images/portfolio/portfolio-static-03.jpg);
-}
-.portfolio-tilthover .portfolio .bg-blr-image.image-4 {
-  background-image: url(./assets/images/portfolio/portfolio-static-04.jpg);
-}
-.portfolio-tilthover .portfolio .bg-blr-image.image-5 {
-  background-image: url(./assets/images/portfolio/portfolio-static-05.jpg);
-}
-.portfolio-tilthover .portfolio .bg-blr-image.image-6 {
-  background-image: url(./assets/images/portfolio/portfolio-static-06.jpg);
-}
-.portfolio-tilthover .portfolio .bg-blr-image.image-7 {
-  background-image: url(./assets/images/portfolio/portfolio-static-07.jpg);
-}
-.portfolio-tilthover .portfolio .bg-blr-image.image-8 {
-  background-image: url(./assets/images/portfolio/portfolio-static-08.jpg);
-}
-.portfolio-tilthover .portfolio .bg-blr-image.image-9 {
-  background-image: url(./assets/images/portfolio/portfolio-static-09.jpg);
-}
-.portfolio-tilthover .portfolio .bg-blr-image.image-10 {
-  background-image: url(./assets/images/portfolio/portfolio-static-10.jpg);
-}
+
 .portfolio-tilthover .portfolio .content {
   opacity: 0;
 }
@@ -11793,72 +11657,7 @@ Footer Styles
   opacity: 0;
   z-index: 9;
 }
-.portfolio-tilthover .portfolio.designer-project .thumbnail {
-  background-image: url(./assets/images/portfolio/dp-portfolio-01.jpg);
-}
-.portfolio-tilthover .portfolio.designer-project .thumbnail.image-1 {
-  background-image: url(./assets/images/portfolio/dp-portfolio-01.jpg);
-}
-.portfolio-tilthover .portfolio.designer-project .thumbnail.image-2 {
-  background-image: url(./assets/images/portfolio/dp-portfolio-02.jpg);
-}
-.portfolio-tilthover .portfolio.designer-project .thumbnail.image-3 {
-  background-image: url(./assets/images/portfolio/dp-portfolio-03.jpg);
-}
-.portfolio-tilthover .portfolio.designer-project .thumbnail.image-4 {
-  background-image: url(./assets/images/portfolio/dp-portfolio-04.jpg);
-}
-.portfolio-tilthover .portfolio.designer-project .thumbnail.image-5 {
-  background-image: url(./assets/images/portfolio/dp-portfolio-05.jpg);
-}
-.portfolio-tilthover .portfolio.designer-project .thumbnail.image-6 {
-  background-image: url(./assets/images/portfolio/dp-portfolio-06.jpg);
-}
-.portfolio-tilthover .portfolio.designer-project .thumbnail.image-7 {
-  background-image: url(./assets/images/portfolio/dp-portfolio-07.jpg);
-}
-.portfolio-tilthover .portfolio.designer-project .thumbnail.image-8 {
-  background-image: url(./assets/images/portfolio/dp-portfolio-08.jpg);
-}
-.portfolio-tilthover .portfolio.designer-project .thumbnail.image-9 {
-  background-image: url(./assets/images/portfolio/dp-portfolio-09.jpg);
-}
-.portfolio-tilthover .portfolio.designer-project .thumbnail.image-10 {
-  background-image: url(./assets/images/portfolio/dp-portfolio-10.jpg);
-}
-.portfolio-tilthover .portfolio.designer-project .bg-blr-image {
-  background-image: url(./assets/images/portfolio/dp-portfolio-01.jpg);
-}
-.portfolio-tilthover .portfolio.designer-project .bg-blr-image.image-1 {
-  background-image: url(./assets/images/portfolio/dp-portfolio-01.jpg);
-}
-.portfolio-tilthover .portfolio.designer-project .bg-blr-image.image-2 {
-  background-image: url(./assets/images/portfolio/dp-portfolio-02.jpg);
-}
-.portfolio-tilthover .portfolio.designer-project .bg-blr-image.image-3 {
-  background-image: url(./assets/images/portfolio/dp-portfolio-03.jpg);
-}
-.portfolio-tilthover .portfolio.designer-project .bg-blr-image.image-4 {
-  background-image: url(./assets/images/portfolio/dp-portfolio-04.jpg);
-}
-.portfolio-tilthover .portfolio.designer-project .bg-blr-image.image-5 {
-  background-image: url(./assets/images/portfolio/dp-portfolio-05.jpg);
-}
-.portfolio-tilthover .portfolio.designer-project .bg-blr-image.image-6 {
-  background-image: url(./assets/images/portfolio/dp-portfolio-06.jpg);
-}
-.portfolio-tilthover .portfolio.designer-project .bg-blr-image.image-7 {
-  background-image: url(./assets/images/portfolio/dp-portfolio-07.jpg);
-}
-.portfolio-tilthover .portfolio.designer-project .bg-blr-image.image-8 {
-  background-image: url(./assets/images/portfolio/dp-portfolio-08.jpg);
-}
-.portfolio-tilthover .portfolio.designer-project .bg-blr-image.image-9 {
-  background-image: url(./assets/images/portfolio/dp-portfolio-09.jpg);
-}
-.portfolio-tilthover .portfolio.designer-project .bg-blr-image.image-10 {
-  background-image: url(./assets/images/portfolio/dp-portfolio-10.jpg);
-}
+
 
 .portfolio-sacousel-inner .slick-list {
   margin-left: -200px;
@@ -12020,9 +11819,7 @@ Footer Styles
   background: linear-gradient(to right, black 0%, rgba(0, 0, 0, 0) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=1 );
 }
-.portfolio-slick-activation button.slick-arrow.slick-prev::before {
-  content: url(./assets/images/icons/slick-arrow-left.png);
-}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .portfolio-slick-activation button.slick-arrow.slick-prev {
     display: none !important;
@@ -12045,9 +11842,7 @@ Footer Styles
   background: linear-gradient(to left, black 0%, rgba(0, 0, 0, 0) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=1 );
 }
-.portfolio-slick-activation button.slick-arrow.slick-next::before {
-  content: url(./assets/images/icons/slick-arrow-right.png);
-}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .portfolio-slick-activation button.slick-arrow.slick-next {
     display: none !important;
@@ -13342,9 +13137,7 @@ Slider Default Button And Dot STyle
     left: 10px;
   }
 }
-.slider-activation button.slick-arrow.slick-prev::before {
-  content: url(./assets/images/icons/slick-arrow-left-small.png);
-}
+
 .slider-activation button.slick-arrow.slick-prev:hover {
   left: 30px;
 }
@@ -13365,9 +13158,7 @@ Slider Default Button And Dot STyle
     right: 10px;
   }
 }
-.slider-activation button.slick-arrow.slick-next::before {
-  content: url(./assets/images/icons/slick-arrow-right-small.png);
-}
+
 .slider-activation button.slick-arrow.slick-next:hover {
   right: 30px;
 }
@@ -13639,7 +13430,6 @@ Testimonial Styles
   height: 100%;
   left: 25%;
   top: -50px;
-  background-image: url(./assets/images/client/image-1.png);
   content: "";
   opacity: 1;
   background-repeat: no-repeat;
@@ -13661,7 +13451,6 @@ Testimonial Styles
   height: 202px;
   right: 25%;
   bottom: -115px;
-  background-image: url(./assets/images/client/image-2.png);
   content: "";
   opacity: 1;
   background-repeat: no-repeat;
@@ -15065,7 +14854,6 @@ BLog Details Styles
   height: 121%;
   left: 50%;
   top: 2px;
-  background-image: url(./assets/images/client/image-1.png);
   content: "";
   opacity: 1;
   background-repeat: no-repeat;
