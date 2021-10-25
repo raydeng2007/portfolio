@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://raydeng2007.github.io/portfolio",
+  "homepage": "http://raymonddeng.com",
   "basename": "/",
   "dependencies": {
     "@material-ui/core": "4.11.3",
