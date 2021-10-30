@@ -26,7 +26,13 @@ const SlideList = [
 const PortfolioLanding = () => {
   let title = "About Me",
     description =
-      "Since beginning my journey nearly 5 years ago, I've done remote work for agencies and collaborated with talented people to create digital content for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one problem at a time.";
+      `
+      Hey! I'm Ray. When I'm not petting goats, I'm a software engineer. 
+      My work experiences include being a fullstack developer, data 
+      scientist and machine learning engineer. 
+      I enjoy exploring different areas outside of software as well, 
+      I always loved playing & watching basketball, travelling, talking about movies and tv shows, 
+      `;
   return (
     <div className="active-dark">
       <Helmet pageTitle="Raymond's Site" />
@@ -169,7 +175,7 @@ const PortfolioLanding = () => {
                   <div className="about-inner inner">
                     <div className="section-title">
                       <div className="row row--35 align-items-center"><h2 className="title">{title}</h2>
-                        <h5> <br /> &nbsp; (on the right)</h5></div>
+                        <h5> <br /> &nbsp; pictured on the right ;) </h5></div>
                       <div>
                         <div className="row row--35 align-items-center">
                           <div className="col-md-3">

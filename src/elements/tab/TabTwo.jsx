@@ -3,10 +3,8 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
 class TabsTwo extends Component {
   render() {
-    let tab1 = "Main skills",
-      // tab2 = "Awards",
-      // tab3 = "Experience",
-      tab4 = "Education & Certification";
+    let tab1 = "Education",
+      tab4 = "Skills";
     const { tabStyle } = this.props;
     return (
       <div>
@@ -18,14 +16,41 @@ class TabsTwo extends Component {
                 <Tabs>
                   <TabList className={`${tabStyle}`}>
                     <Tab>{tab1}</Tab>
-                    {/* <Tab>{tab2}</Tab>
-                    <Tab>{tab3}</Tab> */}
                     <Tab>{tab4}</Tab>
                   </TabList>
+
+
 
                   <TabPanel>
                     <div className="single-tab-content">
                       <ul>
+
+                        <li>
+                          <a href="/service">
+                            Bachelors of Mathematics, Honours Statistics
+                            <span> - University of Waterloo, 2020</span>
+                          </a>
+                          Relevant Courses: <br />Data Structures and Algorithms, Generalized Linear
+                          Models, Databases, Markov Chains, Statistical Forecasting<br /><br />
+                          GPA: <br />"Matters a lot after you graduate, it does not" - Yoda when asked about his thoughts on GPA
+                        </li>
+
+                      </ul>
+                    </div>
+                  </TabPanel>
+                  <TabPanel>
+                    <div className="single-tab-content">
+                      <ul>
+                        <li>
+                          <a href="/service">
+                            Bachelors of Mathematics, Honours Statistics
+                            <span> - University of Waterloo, 2020</span>
+                          </a>{" "}
+                          Relevant Courses: <br />Data Structures and Algorithms, Generalized Linear
+                          Models, Databases, Markov Chains, Statistical Forecasting<br />
+                          GPA: <br />"Matters a lot after you graduate, it does not" <br />
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Yoda when asked about his thoughts on GPA
+                        </li>
                         <li>
                           <a href="#service">
                             Web Development <span> - Development</span>
@@ -35,116 +60,9 @@ class TabsTwo extends Component {
                           Javascript, Python, and tools like: VSCode ,React JS
                           ,Angular, Redux, Codesandbox, Github
                         </li>
-                        <li>
-                          <a href="#service">
-                            Web and user interface design<span> - Design</span>
-                          </a>
-                          I have experience building UI, Websites, Apps, Photos,
-                          Logos with tools like Photoshop, Illustrator,
-                          Affinity, Figma, Pen {"&"} Paper
-                        </li>
-                        <li>
-                          <a href="#service">
-                            Mechanical Engineering <span> - Engineering</span>
-                          </a>
-                          Mechanical Design, Problem Solving, Building, Fixing,
-                          Designing. I use tools like AutoCAD, SolidWorks, Pen
-                          {"&"} Paper, ToolBox.
-                        </li>
                       </ul>
                     </div>
-                  </TabPanel>
 
-                  {/* <TabPanel>
-                    <div className="single-tab-content">
-                      <ul>
-                        <li>
-                          <a href="/service">
-                            Awwwards.com <span>- Winner</span>
-                          </a>{" "}
-                          2019 - 2020
-                        </li>
-                        <li>
-                          <a href="/service">
-                            CSS Design Awards <span>- Winner</span>
-                          </a>{" "}
-                          2017 - 2018
-                        </li>
-                        <li>
-                          <a href="/service">
-                            Design nominees <span>- site of the day</span>
-                          </a>{" "}
-                          2013- 2014
-                        </li>
-                      </ul>
-                    </div>
-                  </TabPanel>
-
-                  <TabPanel>
-                    <div className="single-tab-content">
-                      <ul>
-                        <li>
-                          <a href="/service">
-                            Sr. Front-end Engineer<span> - Google</span>
-                          </a>{" "}
-                          2018 - Current
-                        </li>
-                        <li>
-                          <a href="/service">
-                            Front-end Engineer<span> - Microsoft</span>
-                          </a>{" "}
-                          2017 - 2018
-                        </li>
-                        <li>
-                          <a href="/service">
-                            Software Engineer<span> - Alibaba </span>
-                          </a>{" "}
-                          2013- 2014
-                        </li>
-                      </ul>
-                    </div>
-                  </TabPanel> */}
-
-                  <TabPanel>
-                    <div className="single-tab-content">
-                      <ul>
-                        <li>
-                          <a href="/service">
-                            Mechanical Engineering
-                            <span> - Mosul University, Iraq, 2019</span>
-                          </a>{" "}
-                          Bachelor's degree in applied science from the collage
-                          of mechanical engineering in Mosul, Iraq.
-                        </li>
-                        <li>
-                          <a href="/service">
-                            Full-Stack web development certification
-                            <span> - Kodluyoruz, Turkey, 2021</span>
-                          </a>{" "}
-                          In-depth 2-month-long full-stack coding bootcamp in
-                          Turkey with technologies like Python, Javascript and
-                          Angular.
-                        </li>
-                        <li>
-                          <a href="/service">
-                            React Development certification
-                            <span> - Re:Coded, Iraq, 2021</span>
-                          </a>{" "}
-                          Immersive 5-month-long course, with over 400 hours of
-                          coding and an acceptance rate of {"<6%"}.<br />
-                          HTML, CSS, Javascript, React Additional Coursework on
-                          teamwork, project management, agile methodologies and
-                          technologies and tools like Redux state management
-                          library, Firebase Firestore Cloud database, Jest
-                          testing framework, Figma prototype and UX/ UI design
-                          tool, continuous integration and Agile software
-                          development. Designed user interfaces using Figma and
-                          converted sketches and wireframes to functional
-                          reusable UI components using React JavaScript. Built
-                          projects from zero to production level.
-                        </li>
-                      </ul>
-                    </div>
                   </TabPanel>
                 </Tabs>
               </div>
