@@ -19,41 +19,20 @@ class TabsTwo extends Component {
                     <Tab>{tab4}</Tab>
                   </TabList>
 
-
-
                   <TabPanel>
                     <div className="single-tab-content">
                       <ul>
-
                         <li>
                           <a href="/service">
-                            Bachelors of Mathematics, Honours Statistics
-                            <span> - University of Waterloo, 2020</span>
+                            Web Development
                           </a>
-                          Relevant Courses: <br />Data Structures and Algorithms, Generalized Linear
-                          Models, Databases, Markov Chains, Statistical Forecasting<br /><br />
-                          GPA: <br />"Matters a lot after you graduate, it does not" - Yoda when asked about his thoughts on GPA
+                          Familiar with multiple front end libraries including: React, NextJS, MaterialUI, GatsbyJS.<br />
+                          Backend frameworks such as Django, Flask, Golang microservices. <br />
+                          Authorization flows such as Oauth 2.0 for exchange of access tokens, JWTs etc.
                         </li>
-
-                      </ul>
-                    </div>
-                  </TabPanel>
-                  <TabPanel>
-                    <div className="single-tab-content">
-                      <ul>
                         <li>
                           <a href="/service">
-                            Bachelors of Mathematics, Honours Statistics
-                            <span> - University of Waterloo, 2020</span>
-                          </a>{" "}
-                          Relevant Courses: <br />Data Structures and Algorithms, Generalized Linear
-                          Models, Databases, Markov Chains, Statistical Forecasting<br />
-                          GPA: <br />"Matters a lot after you graduate, it does not" <br />
-                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Yoda when asked about his thoughts on GPA
-                        </li>
-                        <li>
-                          <a href="#service">
-                            Web Development <span> - Development</span>
+                            Data Science
                           </a>
                           Build websites and web apps using javascript and it's
                           frameworks. I use technologies like HTML, CSS,
@@ -62,7 +41,24 @@ class TabsTwo extends Component {
                         </li>
                       </ul>
                     </div>
+                  </TabPanel>
+                  <TabPanel>
+                    <div className="single-tab-content">
+                      <ul>
 
+                        <li>
+                          <a href="/service">
+                            Bachelors of Mathematics, Honours Statistics
+                            <span> - University of Waterloo, 2020</span>
+                          </a>
+                          <br />
+                          Relevant Courses: <br />Data Structures and Algorithms, Generalized Linear
+                          Models, Databases, Markov Chains, Statistical Forecasting<br /><br />
+                          GPA: <br />"Matters a lot after you graduate, it does not" - Yoda when asked about his thoughts on GPA
+                        </li>
+
+                      </ul>
+                    </div>
                   </TabPanel>
                 </Tabs>
               </div>

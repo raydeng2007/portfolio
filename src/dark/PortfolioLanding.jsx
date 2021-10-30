@@ -110,12 +110,12 @@ const PortfolioLanding = () => {
                         {value.category ? <span>{value.category}</span> : ""}
                       </h4>
                       <h1 className="title">
-                        I like<br />
+                        I'm a<br />
                         <TextLoop interval={1800}>
-                          <span> Software</span>
-                          <span> Machine Learning</span>
-                          <span> Blogging</span>
-                          <span> Basketball</span>
+                          <span> Software Developer</span>
+                          <span> ML Enthusiast</span>
+                          <span> Blogger</span>
+                          <span> Basketball Lover</span>
                         </TextLoop>{" "}
                       </h1>
                       <button
