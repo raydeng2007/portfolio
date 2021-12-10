@@ -1,10 +1,11 @@
 import React, { useState, Component, useRef } from 'react';
-// import ReactDOM from 'react-dom';
 import { useSpring, animated } from 'react-spring';
-// import ReactParticles from 'react-particles-js';
-// import particlesConfig from './particles-config.js';
 import './styles.scss';
 import game from "../../assets/images/projects/game.png";
+import blog from "../../assets/images/projects/blog.png";
+import tweet from "../../assets/images/projects/trump_img.png";
+import chrome from "../../assets/images/projects/chrome.png";
+import movie from "../../assets/images/projects/movie.png";
 
 class DisplayCards extends Component {
     render() {
@@ -19,9 +20,11 @@ class DisplayCards extends Component {
                             {cards.map((card, i) => (
                                 <div className="column">
                                     <Card>
-                                        <div className="card-title">{card.title}</div>
-                                        <div className="card-body">{card.description}</div>
-                                        <Image ratio={card.imageRatio} src={card.image} />
+                                        <a target="_blank" href={card.link}>
+                                            <div className="card-title">{card.title}</div>
+                                            <div className="card-body"><p>{card.description}</p></div>
+                                            <Image ratio={card.imageRatio} src={card.image} />
+                                        </a>
                                     </Card>
                                 </div>
                             ))}
@@ -34,22 +37,12 @@ class DisplayCards extends Component {
 }
 
 function Card({ children }) {
-    // We add this ref to card element and use in onMouseMove event ...
-    // ... to get element's offset and dimensions.
     const ref = useRef();
-
-    // Keep track of whether card is hovered so we can increment ...
-    // ... zIndex to ensure it shows up above other cards when animation causes overlap.
     const [isHovered, setHovered] = useState(false);
 
     const [animatedProps, setAnimatedProps] = useSpring(() => {
         return {
-            // Array containing [rotateX, rotateY, and scale] values.
-            // We store under a single key (xys) instead of separate keys ...
-            // ... so that we can use animatedProps.xys.interpolate() to ...
-            // ... easily generate the css transform value below.
             xys: [0, 0, 1],
-            // Setup physics
             config: { mass: 10, tension: 400, friction: 40, precision: 0.00001 }
         };
     });
@@ -140,38 +133,44 @@ function Image({ ratio, src }) {
 
 const cards = [
     {
-        title: 'Build faster ⚡️',
+        title: 'Thoughts By Ray 👨🏻‍💻',
         description:
-            'Create a React web app in the fraction of the time using our library of themes and building blocks. We have everything from navbars and content grids to authentication flows and commenting systems. New blocks are added every week.',
-        image: game,
-        imageRatio: 784 / 1016
-    }, {
-        title: 'Build faster ⚡️',
+            `Personal Blog designed and built from scratch using Gatsby, Material UI, GraphQL, and React Helmet for SEO. \nSupports multiple features such as code blocks, dark mode toggle, read time estimation as well as filter by tags.\nA place where I share my personal and developement stories.`,
+        image: blog,
+        link: 'https://raysblog.netlify.app/',
+        imageRatio: 0.9
+    },
+    {
+        title: 'Tweet Like Trump 🤳',
         description:
-            'Create a React web app in the fraction of the time using our library of themes and building blocks. We have everything from navbars and content grids to authentication flows and commenting systems. New blocks are added every week.',
-        image: 'https://6jlvz1j5q3.csb.app/undraw_collection.svg',
+            `A flask application that has an LSTM model trained for 14 hours on Trump's Twitter data which allows user input and predicts how trump would complete the sentence.\nThe model has two hidden LSTM layers that use cross-entropy loss function and optimized with ADAM algorithm \nUses web sockets to fetch live predictions asynchronously to drastically increase prediction speed.`,
+        image: tweet,
+        link: 'https://tweet-generation.herokuapp.com',
         imageRatio: 784 / 1016
     },
     {
-        title: 'Tweak anything 👩‍🎨',
+        title: 'NBA Chrome Extension 🏀',
         description:
-            'Built with developers in mind. Change element structure, edit CSS, create components, add props and state. We give you access to the underlying React code so you can do what you need right in our tool.',
-        image: 'https://6jlvz1j5q3.csb.app/undraw_upload.svg',
+            `A chrome extension that is made for fans to be able to easily keep track of the scores of their favorite team and their scores from previous games. Published on chrome store with 5 star rating.`,
+        image: chrome,
+        link: 'https://chrome.google.com/webstore/detail/nba-game-alert/eenjjidegjlphgaapdolmhdhoongphmf?hl=en',
         imageRatio: 839 / 1133
     },
     {
-        title: 'Export your code 🚀',
+        title: `Conway's Game of Life 🕹`,
         description:
-            "Export your project as a high-quality React codebase. We're lazer focused on helping you build and iterate quickly, but expect that you'll eventually want to export and wrap things up in your favorite code editor.",
-        image: 'https://6jlvz1j5q3.csb.app/undraw_static_assets.svg',
-        imageRatio: 730 / 1030
+            `A 'zero-player-game' built with React that imitates cellular automaton. The player will be able to change generation speed, grid size as well as generate pre-built patterns. Live official site is deployed on surge.sh.`,
+        image: game,
+        link: "http://ray-game-of-life.surge.sh",
+        imageRatio: 839 / 1133
     },
     {
-        title: 'Export your code 🚀',
+        title: 'Movie Recommendation Service 🎥',
         description:
-            "Export your project as a high-quality React codebase. We're lazer focused on helping you build and iterate quickly, but expect that you'll eventually want to export and wrap things up in your favorite code editor.",
-        image: 'https://6jlvz1j5q3.csb.app/undraw_static_assets.svg',
-        imageRatio: 730 / 1030
+            `A movie recommendation service that pulls data from the latest new movies of different genres for when you don't have movie in mind. It's built with react and redux and deployed to surge.sh`,
+        image: movie,
+        link: "http://moviewatchlist.surge.sh",
+        imageRatio: 0.56
     }
 ];
 
