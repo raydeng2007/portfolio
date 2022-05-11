@@ -3,8 +3,8 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
 class TabsTwo extends Component {
   render() {
-    let tab1 = "Education",
-      tab4 = "Skills";
+    let tab1 = "Skils",
+      tab4 = "Education";
     const { tabStyle } = this.props;
     return (
       <div>
@@ -34,10 +34,20 @@ class TabsTwo extends Component {
                           <a href="/service">
                             Data Science
                           </a>
-                          Build websites and web apps using javascript and it's
-                          frameworks. I use technologies like HTML, CSS,
-                          Javascript, Python, and tools like: VSCode ,React JS
-                          ,Angular, Redux, Codesandbox, Github
+                          Experienced with different machine learning techniques such as: LSTM for NLP, matrix factorization 
+                          for recommendation systems, wavelet transform for noise redeuction in signal processing, word vectorization
+                          for word embeddings, SNN for clustering data and many more ;) 
+                        </li>
+                        <li>
+                          <a href="/service">
+                            Web3 Development
+                          </a>
+                          Built end to end projects that include custom smart contracts for 
+                          minting ERC20 and ERC721 tokens using Solidity.
+                          Experienced with Web3.js and ethers.js libraries that interact
+                          with the Ethereum blockchain.
+                          Familiar with 3rd party services like Alchemy, chainlink and pinata 
+                          that provide blockchain and IPFS services.
                         </li>
                       </ul>
                     </div>
