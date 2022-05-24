@@ -6,11 +6,48 @@ function WorkCards() {
         <div className="work">
             <div className="card-container" sm="4">
                 <div className="card">
+                    <a className="shadow" href="https://hypotenuse.ca/">
+                        <div className="card--display">
+                            <i className="material-icons">Software Engineer<br /> </i>
+                            <div><h3>@ Hypotenuse Labs</h3><h6>Toronto, ON</h6></div>
+                            <h5>Apr 2022 - Current</h5>
+                        </div>
+                        <div className="card--hover">
+                            <h3>Summary</h3>
+                            <ul>
+                                <li>
+                                    <p>Built end to end web3 project for ESG financial. Built custom smart contract that allows users to mint ERC721 tokens. </p>
+                                </li>
+                                <li>
+                                    <p>Responsible for multiple functionalities such as creating Google Smart Shopping Campaigns using Golang and
+                                        worked very closely with various Google APIs.</p>
+                                </li>
+                                <li>
+                                    <p>Designed and built an authentication system with scope authorization and token exchange using OAuth2.</p>
+                                </li>
+                                <li>
+                                    <p>Tens of thousands of users use our service for Google Ads and saw average revenue by transaction rise 50%.</p>
+                                </li>
+                                <li>
+                                    <p>Built crucial front-end components and flows with React and NextJS.</p>
+                                </li>
+                                <li>
+                                    <p>Optimized billing flow with Redis and decreased dropoff rate by 27%.</p>
+                                </li>
+                            </ul>
+                            <p className="link">Click to see news article</p>
+                        </div>
+                    </a>
+                    <div className="card--border" />
+                </div>
+            </div>
+            <div className="card-container" sm="4">
+                <div className="card">
                     <a className="shadow" href="https://ca.finance.yahoo.com/news/lightspeed-teams-google-help-retailers-110000706.html">
                         <div className="card--display">
                             <i className="material-icons">Software Developer II <br /> </i>
                             <div><h3>@ Lightspeed</h3><h6>Toronto, ON</h6></div>
-                            <h5>Aug 2020 - Current</h5>
+                            <h5>Aug 2020 - Apr 2022</h5>
                         </div>
                         <div className="card--hover">
                             <h3>Summary</h3>
