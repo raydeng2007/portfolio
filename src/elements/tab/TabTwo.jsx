@@ -38,17 +38,6 @@ class TabsTwo extends Component {
                           for recommendation systems, wavelet transform for noise redeuction in signal processing, word vectorization
                           for word embeddings, SNN for clustering data and many more ;) 
                         </li>
-                        <li>
-                          <a href="/service">
-                            Web3 Development
-                          </a>
-                          Built end to end projects that include custom smart contracts for 
-                          minting ERC20 and ERC721 tokens using Solidity.
-                          Experienced with Web3.js and ethers.js libraries that interact
-                          with the Ethereum blockchain.
-                          Familiar with 3rd party services like Alchemy, chainlink and pinata 
-                          that provide blockchain and IPFS services.
-                        </li>
                       </ul>
                     </div>
                   </TabPanel>
