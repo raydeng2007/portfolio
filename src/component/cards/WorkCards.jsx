@@ -16,26 +16,21 @@ function WorkCards() {
                             <h3>Summary</h3>
                             <ul>
                                 <li>
-                                    <p>Built end to end web3 project for ESG financial. Built custom smart contract that allows users to mint ERC721 tokens. </p>
+                                    <p>Team lead responsible for building end-to-end full-stack & ML projects for multiple clients,
+                                        including a luxury product marketplace with 1M+ products and celebrity investors. </p>
                                 </li>
                                 <li>
-                                    <p>Responsible for multiple functionalities such as creating Google Smart Shopping Campaigns using Golang and
-                                        worked very closely with various Google APIs.</p>
+                                    <p>Technologies utilized include Next.js, Flask, Express.js, PostgreSQL, GCP, etc.</p>
                                 </li>
                                 <li>
-                                    <p>Designed and built an authentication system with scope authorization and token exchange using OAuth2.</p>
+                                    <p>Main duties include architecting, development, CI/CD pipeline, DNS configuration, team management,
+                                        as well as client communication.</p>
                                 </li>
                                 <li>
-                                    <p>Tens of thousands of users use our service for Google Ads and saw average revenue by transaction rise 50%.</p>
-                                </li>
-                                <li>
-                                    <p>Built crucial front-end components and flows with React and NextJS.</p>
-                                </li>
-                                <li>
-                                    <p>Optimized billing flow with Redis and decreased dropoff rate by 27%.</p>
+                                    <p>Lead interviews for potential hires.</p>
                                 </li>
                             </ul>
-                            <p className="link">Click to see news article</p>
+                            <p className="link">Click to see company website</p>
                         </div>
                     </a>
                     <div className="card--border" />
@@ -43,7 +38,7 @@ function WorkCards() {
             </div>
             <div className="card-container" sm="4">
                 <div className="card">
-                    <a className="shadow" href="https://ca.finance.yahoo.com/news/lightspeed-teams-google-help-retailers-110000706.html">
+                    <a className="shadow" href="https://financialpost.com/news/retail-marketing/lightspeed-partners-with-google-in-global-deal-to-boost-small-businesses-online">
                         <div className="card--display">
                             <i className="material-icons">Software Developer II <br /> </i>
                             <div><h3>@ Lightspeed</h3><h6>Toronto, ON</h6></div>
