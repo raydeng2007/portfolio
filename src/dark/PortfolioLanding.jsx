@@ -16,7 +16,7 @@ import WorkCards from "../component/cards/WorkCards";
 const SlideList = [
   {
     textPosition: "text-left",
-    category: "Hey there! I'm Raymond",
+    category: "Hey!",
     description: "",
     buttonText: "",
     buttonLink: "",
@@ -110,12 +110,12 @@ const PortfolioLanding = () => {
                         {value.category ? <span>{value.category}</span> : ""}
                       </h4>
                       <h1 className="title">
-                        I'm a<br />
+                        I'm Ray<br />
                         <TextLoop interval={1800}>
-                          <span> Software Developer</span>
-                          <span> ML Enthusiast</span>
-                          <span> Blogger</span>
-                          <span> Basketball Lover</span>
+                          <span> Software Engineer</span>
+                          <span> Casual photographer</span>
+                          <span> Subpar Gamer</span>
+                          <span> Above average basketball player</span>
                         </TextLoop>{" "}
                       </h1>
                       <button
