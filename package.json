@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://raymonddeng.com",
+  "homepage": "https://rayray.io",
   "basename": "/",
   "dependencies": {
     "@material-ui/core": "4.11.3",

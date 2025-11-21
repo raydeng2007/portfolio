@@ -8,6 +8,33 @@ function WorkCards() {
                 <div className="card">
                     <a className="shadow" href="https://hypotenuse.ca/">
                         <div className="card--display">
+                            <i className="material-icons">Senior Software Engineer<br /> </i>
+                            <div><h3>theScore</h3><h6>Toronto, ON</h6></div>
+                            <h5>Dec 2022 - Current</h5>
+                        </div>
+                        <div className="card--hover">
+                            <h3>Summary</h3>
+                            <ul>
+                                <li>
+                                    <p>Handled all withdrawals and deposits to ESPN BET sportsbook and online casino</p>
+                                </li>
+                                <li>
+                                    <p>Integrated 300+ games from various game providers</p>
+                                </li>
+                                <li>
+                                    <p>Technologies utilized include Elixir, Phoenix, Kafka, Oban etc</p>
+                                </li>
+                            </ul>
+                            <p className="link">Click to see company website</p>
+                        </div>
+                    </a>
+                    <div className="card--border" />
+                </div>
+            </div>
+            <div className="card-container" sm="4">
+                <div className="card">
+                    <a className="shadow" href="https://hypotenuse.ca/">
+                        <div className="card--display">
                             <i className="material-icons">Software Engineer<br /> </i>
                             <div><h3>@ Hypotenuse Labs</h3><h6>Toronto, ON</h6></div>
                             <h5>Apr 2022 - Current</h5>
