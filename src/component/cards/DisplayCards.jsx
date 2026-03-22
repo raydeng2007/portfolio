@@ -133,15 +133,23 @@ function Image({ ratio, src }) {
 
 const cards = [
     {
-        title: 'Thoughts By Ray 👨🏻‍💻',
+        title: 'Pics By Ray',
         description:
-            `Personal Blog designed and built from scratch using Gatsby, Material UI, GraphQL, and React Helmet for SEO. \nSupports multiple features such as code blocks, dark mode toggle, read time estimation as well as filter by tags.\nA place where I share my personal and developement stories.`,
+            `Photograph site built with NextJS, serving images through cloudinary. \n A visual journal that shares some of my travels, capturing landscapes, cultures, and experiences through my camera`,
         image: blog,
-        link: 'https://raysblog.netlify.app/',
+        link: 'https://pics.rayray.io/',
         imageRatio: 0.9
     },
     {
-        title: 'Tweet Like Trump 🤳',
+        title: 'Thoughts By Ray',
+        description:
+            `Personal Blog designed and built from scratch using Gatsby, Material UI, GraphQL, and React Helmet for SEO. \nSupports multiple features such as code blocks, dark mode toggle, read time estimation as well as filter by tags.\nA place where I share my personal and developement stories.`,
+        image: blog,
+        link: 'https://blog.rayray.io/',
+        imageRatio: 0.9
+    },
+    {
+        title: 'Tweet Like Trump',
         description:
             `A flask application that has an LSTM model trained for 14 hours on Trump's Twitter data which allows user input and predicts how trump would complete the sentence.\nThe model has two hidden LSTM layers that use cross-entropy loss function and optimized with ADAM algorithm \nUses web sockets to fetch live predictions asynchronously to drastically increase prediction speed.`,
         image: tweet,
@@ -149,15 +157,15 @@ const cards = [
         imageRatio: 784 / 1016
     },
     {
-        title: 'NBA Chrome Extension 🏀',
+        title: 'NBA Score Check',
         description:
             `A chrome extension that is made for fans to be able to easily keep track of the scores of their favorite team and their scores from previous games. Published on chrome store with 5 star rating.`,
         image: chrome,
-        link: 'https://chrome.google.com/webstore/detail/nba-game-alert/eenjjidegjlphgaapdolmhdhoongphmf?hl=en',
+        link: 'https://chromewebstore.google.com/detail/nba-score-check/hemhkmfldlfkbddckjmaecafahlgfckm?hl=en-US&utm_source=ext_sidebar',
         imageRatio: 839 / 1133
     },
     {
-        title: `Conway's Game of Life 🕹`,
+        title: `Conway's Game of Life`,
         description:
             `A 'zero-player-game' built with React that imitates cellular automaton. The player will be able to change generation speed, grid size as well as generate pre-built patterns. Live official site is deployed on surge.sh.`,
         image: game,
@@ -165,7 +173,7 @@ const cards = [
         imageRatio: 839 / 1133
     },
     {
-        title: 'Movie Recommendation Service 🎥',
+        title: 'Movie Recommendation Service',
         description:
             `A movie recommendation service that pulls data from the latest new movies of different genres for when you don't have movie in mind. It's built with react and redux and deployed to surge.sh`,
         image: movie,
