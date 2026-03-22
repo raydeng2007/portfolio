@@ -81,17 +81,27 @@
   }
   
   .projects .row {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+
+    @media screen and (min-width: 980px) {
+      grid-template-columns: repeat(12, 1fr);
+      gap: 20px;
+    }
   }
-  
+
   .projects .column {
     display: flex;
-    flex: 1 1 auto;
-    padding: 10px;
-    width: 100%;
+
     @media screen and (min-width: 980px) {
-      width: 50%;
+      // Bento layout — organic card sizes
+      &:nth-child(1) { grid-column: span 7; }  // Pics By Ray — wide
+      &:nth-child(2) { grid-column: span 5; }  // Thoughts By Ray — narrower
+      &:nth-child(3) { grid-column: span 4; }  // NBA Score Check — compact
+      &:nth-child(4) { grid-column: span 8; }  // Conway's — wide
+      &:nth-child(5) { grid-column: span 5; }  // Movie Rec — medium
+      &:nth-child(6) { grid-column: span 7; }  // future card — wide
     }
   }
   
@@ -99,15 +109,21 @@
     display: flex;
     flex-direction: column;
     padding: 40px;
-    background-color: #B0B0B0;
-    box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
-    transition: box-shadow 0.5s;
+    background-color: #1A1A1A;
+    border-radius: 12px;
+    width: 100%;
+    box-shadow: 0px 4px 20px -5px rgba(0, 0, 0, 0.25);
+    transition: box-shadow 0.5s, transform 0.3s ease;
     will-change: transform;
+    &:hover {
+      box-shadow: 0px 8px 30px -5px rgba(0, 0, 0, 0.4);
+    }
   }
   
   .projects .card-title {
     font-size: 22px;
     font-weight: 600;
+    color: rgba(250, 243, 235, 0.95);
   }
   
   .projects .card-body {
@@ -115,6 +131,7 @@
     margin-bottom: 27px;
     line-height: 1.5;
     font-size: 16px;
+    color: rgba(250, 243, 235, 0.70);
     @media screen and (min-width: 576px) {
       font-size: 18px;
     }
@@ -151,7 +168,7 @@
   
   .projects .ratio-inner {
     position: absolute;
-    top: 0 auto;
+    top: 0;
     right: 0;
     bottom: 0;
     left: 0;

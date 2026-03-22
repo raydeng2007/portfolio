@@ -9,7 +9,7 @@ import TabTwo from "../elements/tab/TabTwo";
 import ContactThree from "../elements/contact/ContactThree";
 import Particles from "react-particles-js";
 import profile from "../assets/images/about/profile.jpeg";
-import myPDF from "../assets/resume.pdf";
+import myPDF from "../assets/Resume.pdf";
 import DisplayCards from "../component/cards/DisplayCards";
 import WorkCards from "../component/cards/WorkCards";
 
@@ -133,7 +133,7 @@ const PortfolioLanding = () => {
                             color: "white",
                           }}
                           href={myPDF}
-                          download="resume.pdf"
+                          download="Resume.pdf"
                         >
                           Download CV
                         </a>

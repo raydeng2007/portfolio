@@ -68,9 +68,9 @@ class ContactThree extends Component {
                 <p className="description">
                   I am available for full time, part time and freelance work.
                   Connect with me via email:
-                  <a href="mailto:r6deng@uwaterloo.ca">
+                  <a href="mailto:me@rayray.io">
                     {" "}
-                    r6deng@uwaterloo.ca
+                    me@rayray.io
                   </a>{" "}
                 </p>
               </div>
