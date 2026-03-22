@@ -1,32 +1,32 @@
 {
   "files": {
     "main.css": "/static/css/main.a2b0263c.chunk.css",
-    "main.js": "/static/js/main.c59b5ac1.chunk.js",
-    "main.js.map": "/static/js/main.c59b5ac1.chunk.js.map",
+    "main.js": "/static/js/main.6e5ee944.chunk.js",
+    "main.js.map": "/static/js/main.6e5ee944.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d0605945.js",
     "runtime-main.js.map": "/static/js/runtime-main.d0605945.js.map",
     "static/css/2.d5e620ed.chunk.css": "/static/css/2.d5e620ed.chunk.css",
-    "static/js/2.017bf147.chunk.js": "/static/js/2.017bf147.chunk.js",
-    "static/js/2.017bf147.chunk.js.map": "/static/js/2.017bf147.chunk.js.map",
+    "static/js/2.d6a83f38.chunk.js": "/static/js/2.d6a83f38.chunk.js",
+    "static/js/2.d6a83f38.chunk.js.map": "/static/js/2.d6a83f38.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.d5e620ed.chunk.css.map": "/static/css/2.d5e620ed.chunk.css.map",
     "static/css/main.a2b0263c.chunk.css.map": "/static/css/main.a2b0263c.chunk.css.map",
-    "static/js/2.017bf147.chunk.js.LICENSE.txt": "/static/js/2.017bf147.chunk.js.LICENSE.txt",
-    "static/media/blog.d01635d4.png": "/static/media/blog.d01635d4.png",
-    "static/media/chrome.64dc550b.png": "/static/media/chrome.64dc550b.png",
+    "static/js/2.d6a83f38.chunk.js.LICENSE.txt": "/static/js/2.d6a83f38.chunk.js.LICENSE.txt",
+    "static/media/blog.b6b323dc.png": "/static/media/blog.b6b323dc.png",
+    "static/media/chrome.77d3621b.png": "/static/media/chrome.77d3621b.png",
     "static/media/game.572be160.png": "/static/media/game.572be160.png",
     "static/media/index.css": "/static/media/image.269e3b37.jpg",
     "static/media/logo.5032a41b.svg": "/static/media/logo.5032a41b.svg",
     "static/media/movie.38a4b327.png": "/static/media/movie.38a4b327.png",
     "static/media/profile.f46f58e8.jpeg": "/static/media/profile.f46f58e8.jpeg",
-    "static/media/resume.0c54f137.pdf": "/static/media/resume.0c54f137.pdf",
+    "static/media/resume.f5c11904.pdf": "/static/media/resume.f5c11904.pdf",
     "static/media/trump_img.24512555.png": "/static/media/trump_img.24512555.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d0605945.js",
     "static/css/2.d5e620ed.chunk.css",
-    "static/js/2.017bf147.chunk.js",
+    "static/js/2.d6a83f38.chunk.js",
     "static/css/main.a2b0263c.chunk.css",
-    "static/js/main.c59b5ac1.chunk.js"
+    "static/js/main.6e5ee944.chunk.js"
   ]
 }
